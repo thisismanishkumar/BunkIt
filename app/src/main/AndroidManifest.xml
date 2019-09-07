@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mainactivity">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Bunk It"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BunkStart"></activity>
+        <activity android:name=".admin" />
+        <activity android:name=".BunkInitActivity" />
+
+        <service android:name=".PollService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".PollActivity" />
+        <activity android:name=".Groups" />
+        <activity android:name=".Aftersignup" />
+        <activity
+            android:name=".foo"
+            android:label="@string/title_activity_foo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddDialog" />
+        <activity android:name=".TimeTableActivity" />
+        <activity
+            android:name=".SignUp"
+            android:label="@string/signup_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FirestoreChatActivity"
+            android:label="@string/title_firestore_activity"
+            android:parentActivityName=".SignUp" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

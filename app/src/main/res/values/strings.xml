@@ -1,0 +1,145 @@
+<resources>
+    <string name="facebook_application_id" translatable="false">619137388510414
+</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">4c156cc12e1c1c41cbc0d93db4fb6f55</string>
+    <string name="title_firestore_activity">Chat</string>
+    <string name="app_name">MainActivity</string>
+    <string name="signup_name">Sign Up</string>
+    <string name="theme_header">Theme</string>
+    <string name="theme_default">Default theme</string>
+    <string name="theme_purple">Purple Theme</string>
+    <string name="theme_green">Green Theme</string>
+    <string name="theme_dark">Dark Theme</string>
+
+    <string name="logo_header">Logo</string>
+    <string name="logo_firebase">Firebase Auth</string>
+    <string name="logo_google">Google</string>
+    <string name="logo_none">None</string>
+
+    <string name="tos_pp_header">Terms of Service and Privacy Policy</string>
+    <string name="tos_pp_google">Google</string>
+    <string name="tos_pp_firebase">Firebase</string>
+    <string name="tos_pp_none">None</string>
+
+    <string name="google_scopes_header">Example extra Google scopes</string>
+    <string name="google_scope_drive_file">Drive File</string>
+    <string name="google_scope_youtube_data">Youtube data</string>
+
+    <string name="facebook_permissions_header">Example extra Facebook permissions</string>
+    <string name="facebook_permission_friends">Friends</string>
+    <string name="facebook_permission_photos">Photos</string>
+
+    <string name="github_permissions_header">Example extra GitHub permissions</string>
+    <string name="github_permission_repo">Repo</string>
+    <string name="github_permission_gist">Gist</string>
+
+    <string name="options_header">Other Options</string>
+    <string name="options_enable_credential_selector">Enable Smart Lock\'s credential selector</string>
+    <string name="options_enable_hint_selector">Enable Smart Lock\'s hint selector</string>
+    <string name="options_allow_new_email_acccount">Allow new account creation</string>
+    <string name="options_require_name">Require first/last name with email accounts.</string>
+
+    <string name="configuration_required">Configuration required - see README.md</string>
+    <string name="google_label_missing_config">Google configuration missing</string>
+    <string name="facebook_label_missing_config">Facebook configuration missing</string>
+    <string name="twitter_label_missing_config">Twitter configuration missing</string>
+    <string name="github_label_missing_config">GitHub configuration missing</string>
+
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="unknown_error">An unknown error occurred</string>
+
+    <string name="title_anonymous_upgrade">FirebaseUI Anonymous Account Linking</string>
+    <string name="anonymous_sign_in">Anonymous Sign In</string>
+    <string name="launch_auth_ui">Launch Auth UI</string>
+    <string name="resolve_merge_conflict">Resolve Merge Conflict</string>
+
+    <!-- Auth UI - Signed in -->
+    <string name="signed_in_header">You are signed in!</string>
+    <string name="sign_out">Sign out</string>
+    <string name="delete_account_label">Delete account</string>
+
+    <string name="sign_in_failed">Sign in failed</string>
+    <string name="sign_out_failed">Sign out failed</string>
+    <string name="delete_account_failed">Delete account failed</string>
+
+    <string name="user_profile_header">User profile:</string>
+    <string name="profile_picture_content_desc">Profile picture</string>
+    <string name="used_providers">Providers used: %s</string>
+    <string name="idp_token">IDP Token</string>
+    <string name="idp_secret">IDP Secret</string>
+
+    <!-- Auth UI - Custom AuthMethodPickerLayout -->
+    <string name="custom_layout_subheader">Sign in using this nice custom layout!</string>
+    <string name="custom_layout_idp_header">Choose a provider</string>
+    <string name="custom_layout_email_header">Use your email</string>
+    <string name="custom_layout_email_click_text">Continue with Email</string>
+
+
+    <!-- Storage -->
+    <string name="choose_image">Choose Image</string>
+    <string name="upload">Upload</string>
+    <string name="download">Download</string>
+    <string name="send">Send</string>
+    <string name="accessibility_downloaded_image">Downloaded image</string>
+
+    <string name="rational_image_perm">This sample will read an image from local storage to upload to Cloud Storage.</string>
+
+    <!-- Database -->
+    <string name="start_chatting">No messages. Start chatting at the bottom!</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_in">Signed In</string>
+    <string name="anonymous_auth_failed_msg">
+        Anonymous authentication failed, various components of the demo will not work.
+        Make sure your device is online and that Anonymous Auth is configured in your Firebase project
+        (https://console.firebase.google.com/project/_/authentication/providers)
+    </string>
+
+    <string name="menu_add_data">Add Data</string>
+    <string name="hint_message">Say something…</string>
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+
+    </string-array>
+    <string-array name="headers">
+        <item>   </item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+
+
+    </string-array>
+    <array name="groups">
+        <item>Group-A</item>
+        <item>Group-B</item>
+        <item>Group-C</item>
+        <item>Group-D</item>
+        <item>Group-E</item>
+        <item>Group-F</item>
+        <item>Group-G</item>
+        <item>Group-H</item>
+        <item>Group-I</item>
+        <item>Group-J</item>
+    </array>
+    <string name="title_activity_foo">foo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="default_header_title">
+        <item></item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+    </string-array>
+</resources>

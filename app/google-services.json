@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "914784854599",
+    "firebase_url": "https://bunkit-561c5.firebaseio.com",
+    "project_id": "bunkit-561c5",
+    "storage_bucket": "bunkit-561c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914784854599:android:79938f9537135119",
+        "android_client_info": {
+          "package_name": "com.example.mainactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914784854599-89379brkcaubn01egqtbfd60clk6o1em.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mainactivity",
+            "certificate_hash": "cbefebc0f2511648ce939746ab60d5439c7502ef"
+          }
+        },
+        {
+          "client_id": "914784854599-fgo8vcs11hd036832tnq1u5f9trhj63s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi2cfQS5goo6zpXJhDZe1FB1tpmaYF_u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914784854599-fgo8vcs11hd036832tnq1u5f9trhj63s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
